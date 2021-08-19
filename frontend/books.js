@@ -1,0 +1,133 @@
+import {images} from './constants';
+
+const factfullness = {
+  id: 1,
+  name: 'Factfullness - Sự Thật Về Thế Giới',
+  frontSideImage: images.factFullNessFrontSide,
+  backSideImage: images.factFullNessBackSide,
+  totalSideImage: images.factFullNessTotalSide,
+  type: 'Kỹ năng sống',
+  language: 'VN',
+  pageNum: 451,
+  author: 'Hans Rosling',
+  owner: '001',
+  posted: true,
+};
+const canhDongBatTan = {
+  id: 2,
+  name: 'Cánh Đồng Bất Tận',
+  frontSideImage: images.canhDongBatTanFrontSide,
+  backSideImage: images.canhDongBatTanBackSide,
+  totalSideImage: images.canhDongBatTanTotalSide,
+  type: 'Truyện ngắn',
+  language: 'VN',
+  pageNum: 218,
+  author: 'Nguyễn Ngọc Tư',
+  owner: '002',
+  posted: true,
+};
+const conTraiNguoiThoGom = {
+  id: 3,
+  name: 'Con Trai Người Thợ Gốm',
+  frontSideImage: images.conTraiNguoiThoGomFrontSide,
+  backSideImage: images.conTraiNguoiThoGomBackSide,
+  totalSideImage: images.conTraiNguoiThoGomTotalSide,
+  type: 'Tiểu thuyết',
+  language: 'VN',
+  pageNum: 305,
+  author: 'Tony Mitton',
+  owner: '003',
+  posted: false,
+};
+const biMatCuaHanhPhuc = {
+  id: 4,
+  name: 'Trên Đường Băng',
+  frontSideImage: images.biMatCuaHanhPhucFrontSide,
+  backSideImage: images.biMatCuaHanhPhucBackSide,
+  totalSideImage: images.biMatCuaHanhPhucTotalSide,
+  type: 'Kỹ năng sống',
+  language: 'VN',
+  pageNum: 168,
+  author: 'Hoa Học Trò',
+  owner: '004',
+  posted: true,
+};
+const boGia = {
+  id: 5,
+  name: 'Bố Già',
+  frontSideImage: images.boGiaFrontSide,
+  backSideImage: images.boGiaBackSide,
+  totalSideImage: images.boGiaTotalSide,
+  type: 'Sách văn học',
+  language: 'VN',
+  pageNum: 642,
+  author: 'Mario Puzo',
+  owner: '001',
+  posted: false,
+};
+const xachValiDenXuAnhDao = {
+  id: 6,
+  name: 'Xách Vali Đến Xứ Anh Đào',
+  frontSideImage: images.xachValiDenXuAnhDaoFrontSide,
+  backSideImage: images.xachValiDenXuAnhDaoBackSide,
+  totalSideImage: images.xachValiDenXuAnhDaoTotalSide,
+  type: 'Du lịch',
+  language: 'VN',
+  pageNum: 121,
+  author: 'Phong Phương - An Nhiên',
+  owner: '002',
+  posted: true,
+};
+const sauTiDuongDenHanhPhuc = {
+  id: 7,
+  name: 'Sáu Tỉ Đường Đến Hạnh Phúc',
+  frontSideImage: images.sauTiDuongDenHanhPhucFrontSide,
+  backSideImage: images.sauTiDuongDenHanhPhucBackSide,
+  totalSideImage: images.sauTiDuongDenHanhPhucTotalSide,
+  type: 'Kỹ năng sống',
+  language: 'VN',
+  pageNum: 409,
+  author: 'Stefan Klein',
+  owner: '003',
+  posted: false,
+};
+const toiLaBeto = {
+  id: 8,
+  name: 'Tôi Là Bêtô',
+  frontSideImage: images.toiLaBetoFrontSide,
+  backSideImage: images.toiLaBetoBackSide,
+  totalSideImage: images.toiLaBetoTotalSide,
+  type: 'Truyện ngắn',
+  language: 'VN',
+  pageNum: 229,
+  author: 'Nguyễn Nhật Ánh',
+  owner: '004',
+  posted: true,
+};
+const muoiNguoiDaDenNho = {
+  id: 9,
+  name: 'Mười Người Da Đen Nhỏ',
+  frontSideImage: images.muoiNguoiDaDenNhoFrontSide,
+  backSideImage: images.muoiNguoiDaDenNhoBackSide,
+  totalSideImage: images.muoiNguoiDaDenNhoTotalSide,
+  type: 'Truyện ngắn',
+  language: 'VN',
+  pageNum: 269,
+  author: 'Agatha Christine',
+  owner: '001',
+  posted: true,
+};
+
+const myBooksData = [
+  biMatCuaHanhPhuc,
+  boGia,
+  canhDongBatTan,
+  conTraiNguoiThoGom,
+  factfullness,
+  muoiNguoiDaDenNho,
+  sauTiDuongDenHanhPhuc,
+  toiLaBeto,
+  xachValiDenXuAnhDao,
+];
+
+export default myBooksData;

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238668224131",
+    "project_id": "sharebook-e4418",
+    "storage_bucket": "sharebook-e4418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238668224131:android:d71f2d8ad112df01bd2db6",
+        "android_client_info": {
+          "package_name": "com.bookstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238668224131-j768quiriqvhui9o19emb15743v3ttm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVmHB-Dm-G7uDFj85QZyJU_JyQhiwmLHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238668224131-j768quiriqvhui9o19emb15743v3ttm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
