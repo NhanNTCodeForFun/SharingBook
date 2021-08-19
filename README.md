@@ -93,7 +93,7 @@ Tiến hành cài đặt và chạy project.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/doannhatquang27/booksharingdemo.git
+   git clone https://github.com/NhanNTCodeForFun/SharingBook.git
    ```
 2. Di chuyển đến thư mục frontend
    ```sh
@@ -108,13 +108,22 @@ Tiến hành cài đặt và chạy project.
 
 ### Run Frontend
 
-1. Di chuyển đến thư mục docker
+1. Di chuyển đến thư mục frontend
    ```sh
    cd frontend
    ```
 2. Run command
    ```sh
    npx react-native run-android
+   ```
+### Run Web
+1. Di chuyển đến thư mục web
+   ```sh
+   cd web
+   ```
+2. Run command
+   ```sh
+   npm start
    ```
 
 ### Run Backend Với Docker
